@@ -4,7 +4,7 @@ This sample shows how to do the following:
 
 * Configure the [Delegated Administration Dashboard Extension](https://auth0.com/docs/extensions/delegated-admin) to use roles from the [Authorization Extension](https://auth0.com/docs/extensions/authorization-extension/v2) as a source for memberships when creating users.
 
-* Create users into a "provisioned" Database connection, so that when they first sign in via their federated connection (eg. Active Directory or ADFS), their membership is migrated. This allows provisioning of users ahead of time before they first sign in via their federated connection. This migration is done using a rule.
+* Create users into a "provisioned" Database connection, so that when they first sign in via their federated connection (eg. Active Directory or ADFS), their membership configuration is migrated and the temp user is deleted. This allows provisioning of users ahead of time before they first sign in via their federated connection. This migration is done using a rule.
 
 ## Setup
 
