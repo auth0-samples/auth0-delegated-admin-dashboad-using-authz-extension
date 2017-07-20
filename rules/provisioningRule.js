@@ -8,7 +8,7 @@ function provisioningRule (user, context, callback) {
   var Promise = require('bluebird');
   var request = require('request-promise');
 
-  // bail if not an AD user
+  // bail if not a federated user
   if (context.connection !== FEDERATED_CONNECTION) {
     return callback(null, user, context);
   }
